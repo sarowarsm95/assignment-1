@@ -1,0 +1,238 @@
+/* font-style */
+*{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* heading name & btn style */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  color: #0D1321;
+}
+.btn{
+  margin-right: 150px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: none;
+  padding: 17px 24px;
+  margin-top: 38px;
+  
+}
+
+.name{
+  margin-left: 150px;
+  font-weight: 800;
+  font-size: 28px;
+  margin-top: 50px;
+}
+nav ul li{
+  list-style: none;
+}
+/* banner style start */
+.banner{
+  width: 1440px;
+  margin: 0 auto;
+  min-height: 652px;
+  margin-top: 36px;
+  background-image: url("/assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.subtitle{
+  font-weight: 800;
+  font-size: 48px;
+}
+.chotu-mia{
+  margin-top: 26px;
+}
+.btn-2 {
+  background:#0D1321;
+  padding: 21px 24px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 50px;
+  
+}
+.btn-2 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+/* main part banner style */
+
+.body-banner{
+  
+  min-width: 1140px;
+  min-height: 1393px;
+  margin: 74px 148px 0px 152px;
+  
+}
+
+.body-banner h3, p{
+  text-align: center;
+  justify-content: center;
+  display:block;
+  color: #0D1321;
+  
+  
+}
+.body-banner h3{
+  margin-top: 80px;
+  font-weight: 800;
+  font-size: 32px;
+}
+.body-banner p{
+  font-weight: 400;
+  font-size: 16px;
+}
+/* box style */
+.box-content{
+width: 946px;
+height: 336px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+
+.box-1{
+width: 477px;
+height: 219px; 
+}
+.info{
+font-size: 48px;
+font-weight: 100px;
+}
+.right-box-1{
+width: 274px;
+height: 240px;
+margin-left: 100px;
+background-image: url("/assets/Layer_1.png");
+}
+.fonts{
+font-weight: 600;
+font-size: 24px;
+color: #0D1321;
+}
+.info{
+margin-right:60px ;
+font-weight: 400;
+font-size: 16px;
+color: #0D1321;
+display: inline;
+}
+.btn-3{
+margin-top: 10px;
+width: 171px;
+height: 37px;
+background: none;
+color: #0D1321;
+}
+/* main box 2 start */
+.left-box{
+width: 274px;
+height: 240px;
+display: flex;
+align-items: start;
+background-image: url("/assets/Group\ 3.png");
+
+}
+.second-right-box{
+width: 477px;
+height: 219px;
+
+}
+/* main-box-3 start */
+.right-box-3{
+width: 274px;
+height: 240px;
+margin-left: 100px;
+background-image: url("/assets/Group\ 4.png");
+}
+/* video part style */
+.video-content{
+width: 1140px;
+height: 775px;
+margin: 0 auto;
+}
+.video-title{
+text-align: center;
+}
+.main-video{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+
+}
+/* skills style start */
+.skill-head{
+text-align: center;
+}
+.skills{
+width: 1140px;
+height: 299px;
+margin: 0 auto;
+}
+
+.skills-container{
+display: flex;
+gap: 24px;
+}
+.skill{
+padding: 40px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+}
+.skill-descreption{
+text-align: start;
+}
+.btn4{
+width: 284px;
+height: 19px;
+color: #0D1321;
+}
+.footer-bg{
+margin: 250px auto;
+width: 1140px;
+height: 313px;
+background-image: url("/assets/handshake.jpg");
+background-position:center;
+background-repeat: no-repeat;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: overlay;
+}
+.comment-below{
+text-align: center;
+margin: 6px 48px;
+
+}
+.request{
+color: #ffffff;
+font-weight: 600px;
+font-size: 32px;
+}
+.request-title{
+font-weight: 400px;
+font-size: 16px;
+color: #ffffff;
+}
+.for-text{
+width: 548px;
+height: 57px;
+border-radius: 5px;
+
+}
+.btn-5{
+width: 120px;
+height: 57px;
+background:#ffffff;
+border-radius: 10px;
+font-weight: 600px;
+font-size: 20px;
+}
